@@ -24,6 +24,9 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import Icon from 'react-native-vector-icons/FontAwesome';
+const MyIcon = <Icon name="rocket" size={30} color="#900" />;
+
 const App = () => {
   return (
     <Fragment>
@@ -39,6 +42,7 @@ const App = () => {
             </View>
           )}
           <View style={styles.body}>
+            <Icon name="rocket" size={30} color="#900" />
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
